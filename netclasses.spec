@@ -1,5 +1,5 @@
 Summary:	Asynchronous communication library
-Summary(pl):	Biblioteka do komunikacji asynchronicznej
+Summary(pl.UTF-8):   Biblioteka do komunikacji asynchronicznej
 Name:		netclasses
 Version:	1.05
 Release:	1
@@ -28,14 +28,14 @@ netclasses is an asynchronous networking library that works on OS X
 natively, and any of the multitude of platforms supported by GNUstep.
 You've never seen an easier way to put together network applications!
 
-%description -l pl
-netclasses to biblioteka do komunikacji asynchronicznej dzia≥aj±ca
-natywnie na OS X oraz wielu platformach obs≥ugiwanych przez GNUstepa.
-Wg autorÛw nie ma ≥atwiejszej metody ≥±czenia aplikacji sieciowych.
+%description -l pl.UTF-8
+netclasses to biblioteka do komunikacji asynchronicznej dzia≈ÇajƒÖca
+natywnie na OS X oraz wielu platformach obs≈Çugiwanych przez GNUstepa.
+Wg autor√≥w nie ma ≈Çatwiejszej metody ≈ÇƒÖczenia aplikacji sieciowych.
 
 %package devel
 Summary:	Header files for netclasses library
-Summary(pl):	Pliki nag≥Ûwkowe biblioteki netclasses
+Summary(pl.UTF-8):   Pliki nag≈Ç√≥wkowe biblioteki netclasses
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	gnustep-base-devel >= 0.8.6-3
@@ -43,8 +43,8 @@ Requires:	gnustep-base-devel >= 0.8.6-3
 %description devel
 Header files for netclasses library.
 
-%description devel -l pl
-Pliki nag≥Ûwkowe biblioteki netclasses.
+%description devel -l pl.UTF-8
+Pliki nag≈Ç√≥wkowe biblioteki netclasses.
 
 %prep
 %setup -q
