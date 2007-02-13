@@ -1,5 +1,5 @@
 Summary:	Asynchronous communication library
-Summary(pl.UTF-8):   Biblioteka do komunikacji asynchronicznej
+Summary(pl.UTF-8):	Biblioteka do komunikacji asynchronicznej
 Name:		netclasses
 Version:	1.05
 Release:	1
@@ -35,7 +35,7 @@ Wg autorów nie ma łatwiejszej metody łączenia aplikacji sieciowych.
 
 %package devel
 Summary:	Header files for netclasses library
-Summary(pl.UTF-8):   Pliki nagłówkowe biblioteki netclasses
+Summary(pl.UTF-8):	Pliki nagłówkowe biblioteki netclasses
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	gnustep-base-devel >= 0.8.6-3
